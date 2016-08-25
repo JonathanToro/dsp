@@ -28,7 +28,7 @@ Make a cheat sheet for yourself: a list of at least **ten** commands and what th
 
 What do the following commands do:  
 
-> > 
+> > Commands
 
 `ls`     - lists files and directories 
 `ls -a`  - does not hide entries starting with .
