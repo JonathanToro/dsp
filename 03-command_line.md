@@ -42,7 +42,12 @@ What do the following commands do:
 
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> >
+    'ls -d'  - displays only dictionaries
+    'ls -r'  - displays files in reverse order
+    'ls -u'  - displays files by access time
+    'ls -1'  - displays each entry on a line
+    'ls -R'  - displays subdirectories as well
 
 ---
 
