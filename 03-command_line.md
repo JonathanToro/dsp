@@ -9,7 +9,8 @@ tutorial](https://web.archive.org/web/20160708171659/http://cli.learncodethehard
 
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do, focused on things that are new, interesting, or otherwise worth remembering.
 
-> > pushd - push directory -m
+> > pushd - push directory
+
     popd - pop directory
     less - page through a file
     cat - print a whole file
