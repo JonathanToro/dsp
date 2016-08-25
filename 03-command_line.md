@@ -9,8 +9,9 @@ tutorial](https://web.archive.org/web/20160708171659/http://cli.learncodethehard
 
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do, focused on things that are new, interesting, or otherwise worth remembering.
 
-> > pushd - push directory
+> > Cheat Sheet
 
+    pushd - push directory
     popd - pop directory
     less - page through a file
     cat - print a whole file
@@ -26,6 +27,7 @@ Make a cheat sheet for yourself: a list of at least **ten** commands and what th
 ###Q2.  List Files in Unix   
 
 What do the following commands do:  
+
 `ls`     - lists files and directories
 `ls -a`  - does not hide entries starting with .
 `ls -l`  - lists the files and directories. Also shows where they are located and when they were modified.
