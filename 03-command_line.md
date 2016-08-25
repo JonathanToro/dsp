@@ -9,22 +9,29 @@ tutorial](https://web.archive.org/web/20160708171659/http://cli.learncodethehard
 
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do, focused on things that are new, interesting, or otherwise worth remembering.
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > pushd - push directory
+    popd - pop directory
+    less - page through a file
+    cat - print a whole file
+    apropos - find what man page is appropriate
+    echo - print some arguments
+    xargs - execute arguments
+    cp - copy a file or directory
+    mv - move a file or directory
+    env - look at your environment
 
 ---
 
 ###Q2.  List Files in Unix   
 
 What do the following commands do:  
-`ls`  
-`ls -a`  
-`ls -l`  
-`ls -lh`  
-`ls -lah`  
-`ls -t`  
-`ls -Glp`  
-
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+`ls`     - lists files and directories
+`ls -a`  - does not hide entries starting with .
+`ls -l`  - lists the files and directories. Also shows where they are located and when they were modified.
+`ls -lh` - lists the files and directories. Also shows where they are located and when they were modified. Prints sizes in human            readable format
+`ls -lah`- same as lh except it does not hide entries starting with .
+`ls -t`  - sort the lists of files by modification time
+`ls -Glp`- inhibit display of group information, file type, and includes l's function
 
 ---
 
