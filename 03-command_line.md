@@ -27,6 +27,7 @@ Make a cheat sheet for yourself: a list of at least **ten** commands and what th
 ###Q2.  List Files in Unix   
 
 What do the following commands do:  
+
 `ls`     - lists files and directories
 `ls -a`  - does not hide entries starting with .
 `ls -l`  - lists the files and directories. Also shows where they are located and when they were modified.
