@@ -56,7 +56,7 @@ Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) 
 What does `xargs` do? Give an example of how to use it.
 
 > > 
-    'xargs' executes arguements
+    'xargs' executes arguments.
     An example of how to use it is with "echo a b c d e f| xargs". This will return "a b c d e f".
 
  
