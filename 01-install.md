@@ -48,7 +48,7 @@ cross-platform.
 
 Did you install Python 2 or 3? Why?  
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> Python 2 because I'm more familiar with this version of Python.
 
 ###Q2. Which Python Version Installed   
 
