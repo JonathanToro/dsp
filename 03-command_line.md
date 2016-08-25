@@ -28,7 +28,8 @@ Make a cheat sheet for yourself: a list of at least **ten** commands and what th
 
 What do the following commands do:  
 
-`ls`     - lists files and directories \n
+> > 
+`ls`     - lists files and directories 
 `ls -a`  - does not hide entries starting with .
 `ls -l`  - lists the files and directories. Also shows where they are located and when they were modified.
 `ls -lh` - lists the files and directories. Also shows where they are located and when they were modified. Prints sizes in human            readable format
