@@ -12,9 +12,8 @@ For quick and easy interactive practice with Python, many people enjoy [Codecade
 
 How are Python lists and tuples similar and different? Which will work as keys in dictionaries? Why?
 
->>  Lists are a list of values. Each one of them is numbered starting from zero - the first one is numbered 0, the second 1, etc. You can remove values from the list, and add new values to the end. Tuples are like lists, but you can't change their values. Their not mutable. Again, each value is numbered starting from zero. Lists will work as keys in dictionaries.
-    Lists are what they seem - a list of values. Each one of them is numbered, starting from zero - the first one is numbered zero, the second 1, the third 2, etc. You can remove values from the list, and add new values to the end. Example: Your many cats' names.
-    Tuples are just like lists, but you can't change their values. The values that you give it first up, are the values that you are stuck with for the rest of the program. Again, each value is numbered starting from zero, for easy reference. Example: the names of the months of the year.
+>>  Lists are a list of values. Each one of them is numbered starting from zero - the first one is numbered 0, the second 1, etc. You can remove values from the list, and add new values to the end. Tuples are like lists, but you can't change their values. Their not mutable. Again, each value is numbered starting from zero. Tuples can work as keys in dictionaries becuase of their immutability. 
+    
 
 ---
 
