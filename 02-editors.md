@@ -68,6 +68,6 @@ What terminal editor will you use? How did you make your decision?
 
 What graphical editor will you use? How did you make your decision? What are some interesting features of your editor? What are some useful keyboard shortcuts for your editor? How do you customize your editor?
 
->> I decided to use vim to have the same editor experience across graphical and non-graphical environments. Some useful keyboard shortcuts are: :q! (quit without saving), :w (save), :q (quit), u (undo), ctrl+R (redo), d (delete), o (insert a new line) / (search text), and many more. You can customize vim by acessing the vim dotfile. You can check that you have one by running "cat ~/.vimrc". If there's nothing there you can type "touch ~/.vimrc" to create it. 
+>> I decided to use vim to have the same editor experience across graphical and non-graphical environments. Some useful keyboard shortcuts are: :q! (quit without saving), :w (save), :q (quit), u (undo), ctrl+R (redo), d (delete), o (insert a new line), / (search text), and many more. You can customize vim by acessing the vim dotfile. You can check that you have one by running "cat ~/.vimrc". If there's nothing there you can type "touch ~/.vimrc" to create it. 
 
  
