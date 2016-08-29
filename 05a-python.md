@@ -63,6 +63,12 @@ for number in range(0,11):
     lst.append(number**2)
 ```
 
+map() is a function that takes in two arguments: a function and a sequence iterable. Using map is commonly used with lambda expressions since the entire purpose of map() is to save effort on having to create manual for loops. Below is an example.
+```python
+lst = range(0,11)
+map(lambda x: x**2, lst)
+```
+
 ---
 
 ###Complete the following problems by editing the files below:
