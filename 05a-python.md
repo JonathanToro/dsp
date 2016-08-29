@@ -82,6 +82,10 @@ Now we will filter a list of numbers.
 lst = range(20)
 filter(odd_check,lst)
 ```
+The lambda expression is also commonly used with filter. We will reproduce the same result as above by using the lambda expression.
+```python
+filter(lambda x: x%2!=0,lst)
+```
 
 ---
 
