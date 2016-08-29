@@ -48,7 +48,21 @@ sorted(zoo, key = lambda k: k[1])
 
 Explain list comprehensions. Give examples and show equivalents with `map` and `filter`. How do their capabilities compare? Also demonstrate set comprehensions and dictionary comprehensions.
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> List comprehensions allow us to build out lists using a different notation. We can think of it as essentially a one line for loop built inside of brackets.
+
+An example of a list comprehension is below.
+
+```python
+lst = [x**2 for x in range(0,11)]
+```
+
+This is the same as writing:
+```python
+lst = range(0,11)
+squared = []
+for number in lst:
+    squared.append(x**2)
+```
 
 ---
 
