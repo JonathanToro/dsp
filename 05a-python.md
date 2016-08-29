@@ -31,6 +31,13 @@ Describe Python's `lambda`. What is it, and what is it used for? Give at least o
 
 >> Lambda expressions allow us to create "anonymous" functions. This basically means we can quickly make ad-hoc functions without needing to properly define a function using def. Function objects returned by running lambda expressions work exactly the same as those created and assigned by defs.
 
+An example of using lambda in the 'key' argument to 'sorted' is below.
+Let's say we have a collection that contains the different animals in the zoo and the number of each animal.
+>> zoo = [('monkey',5),('donkey',2),('elephant',10),('lion',1),('tiger',4)]
+
+We can use the lambda expression to sort the collection by the amount of animals in each species.
+>>sorted(zoo,key = lambda k: k[1])
+
 ---
 
 ###Q4. List Comprehension, Map &amp; Filter
