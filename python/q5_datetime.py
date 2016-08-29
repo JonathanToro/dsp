@@ -12,8 +12,15 @@ print delta.days
 ##We get 937 days
 
 ####b)  
+from datetime import datetime
 date_start = '12312013'  
 date_stop = '05282015'  
+date_format = "%m%d%Y"
+a = datetime.strptime(date_start,date_format)
+b = datetime.strptime(date_stop,date_format)
+delta = b-a
+print delta.days
+##We get 513 days
 
 ####c)  
 date_start = '15-Jan-1994'  
