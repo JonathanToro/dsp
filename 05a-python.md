@@ -60,7 +60,7 @@ This is the same as writing:
 ```python
 lst = []
 for number in range(0,11):
-    lst.append(x**2)
+    lst.append(number**2)
 ```
 
 ---
