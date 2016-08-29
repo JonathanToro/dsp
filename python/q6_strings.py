@@ -3,6 +3,10 @@
 
 
 def donuts(count):
+    if count<10:
+        return "Number of donuts: %d" %count
+    else:
+        return "Number of donuts: many"
     """
     Given an int count of a number of donuts, return a string of the
     form 'Number of donuts: <count>', where <count> is the number
