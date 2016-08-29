@@ -58,10 +58,9 @@ lst = [x**2 for x in range(0,11)]
 
 This is the same as writing:
 ```python
-lst = range(0,11)
-squared = []
-for number in lst:
-    squared.append(x**2)
+lst = []
+for number in range(0,11):
+    lst.append(x**2)
 ```
 
 ---
