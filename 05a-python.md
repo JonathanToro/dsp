@@ -33,12 +33,12 @@ Describe Python's `lambda`. What is it, and what is it used for? Give at least o
 
 An example of using lambda in the 'key' argument to 'sorted' is below.
 Let's say we have a collection that contains the different animals in the zoo and the number of each animal.
-'''
+'''python
 zoo = [('monkey',5), ('donkey',2), ('elephant',10), ('lion',1), ('tiger',4)]
 '''
 
 We can use the lambda expression to sort the collection by the amount of animals in each species.
-'''
+'''python
 sorted(zoo, key = lambda k: k[1])
 '''
 
