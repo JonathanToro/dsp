@@ -159,7 +159,6 @@ def not_bad(s):
 
 
 def front_back(a, b):
-	
 	if len(a) % 2 != 0:
 		a_front, a_back = a[:(len(a)/2)+1], a[(len(a)/2)+1:]
 	else:
