@@ -132,6 +132,13 @@ def verbing(s):
 
 
 def not_bad(s):
+	no = s.find("not")
+	bad = s.find("bad")
+	if bad > no:
+		s = s[:no] + "good" + s[bad+3:]
+		return s
+	else:
+		return s
     """
     Given a string, find the first appearance of the substring 'not'
     and 'bad'. If the 'bad' follows the 'not', replace the whole
