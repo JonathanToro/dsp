@@ -58,6 +58,7 @@ def fix_start(s):
 		count += 1
 		if letter == first:
 			s[count] = "*"
+	return "".join(s)
     """
     Given a string s, return a string where all occurences of its
     first char have been changed to '*', except do not change the
