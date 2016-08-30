@@ -104,6 +104,17 @@ def mix_up(a, b):
 
 
 def verbing(s):
+	s_list = list(s)
+	reverse_s = s_list[::-1]
+	last_three = reverse_s[0:3]
+	last_three = last_three[::-1]
+	last_three = "".join(last_three)
+	if len(s) < 3:
+		return s
+	elif last_three == 'ing':
+		return s+'ly'
+	else:
+		return s+'ing'
     """
     Given a string, if its length is at least 3, add 'ing' to its end.
     Unless it already ends in 'ing', in which case add 'ly' instead.
