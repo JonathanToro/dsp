@@ -70,6 +70,14 @@ def sort_last(tuples):
 
 
 def remove_adjacent(nums):
+	new = []
+	for a, b in zip(nums, nums[1:]):
+        	if a != b:
+                	new.append(a)
+        if len(nums)>0:
+                new.append(nums[len(nums)-1])
+        return new
+
     """
     Given a list of numbers, return a list where all adjacent equal
     elements have been reduced to a single element, so [1, 2, 2, 3]
