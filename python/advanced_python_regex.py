@@ -55,7 +55,5 @@ for i in email:
 	j = i.index("@")
 	email_domain.append(i[j::])
 
-counter3 = collections.Counter(email_domain)
-
 print "The amount of different email domains is ", len(set(email_domain)), "."
 print "The unique email domains are: ", list(set(email_domain))
