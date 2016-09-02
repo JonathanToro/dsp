@@ -1,3 +1,7 @@
+import csv
+
+f = open('faculty.csv')
+csv_f = csv.reader(f)
 
 name = []
 degree = []
