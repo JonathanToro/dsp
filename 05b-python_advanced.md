@@ -82,7 +82,7 @@ Print the first 3 key and value pairs of the dictionary:
 >> {('Yimei', 'Li'): [' Ph.D.', 'Assistant Professor', 'liy3@email.chop.edu'], ('Hongzhe', 'Li'): [' Ph.D', 'Professor', 'hongzhe@upenn.edu'], ('Justine', 'Shults'): [' Ph.D.', 'Professor', 'jshults@mail.med.upenn.edu']
 
 ####Q8.  It looks like the current dictionary is printing by first name.  Print out the dictionary key value pairs based on alphabetical orders of the last name of the professors
-
+```
 ('Scarlett L.', 'Bellamy') [' Sc.D.', 'Associate Professor', 'bellamys@mail.med.upenn.edu']
 ('Warren B.', 'Bilker') ['Ph.D.', 'Professor', 'warren@upenn.edu']
 ('Matthew W', 'Bryan') [' PhD', 'Assistant Professor', 'bryanma@upenn.edu']
@@ -120,7 +120,7 @@ Print the first 3 key and value pairs of the dictionary:
 ('Sharon Xiangwen', 'Xie') [' Ph.D.', 'Associate Professor', 'sxie@mail.med.upenn.edu']
 ('Dawei', 'Xie') [' PhD', 'Assistant Professor', 'dxie@upenn.edu']
 ('Wei (Peter)', 'Yang') [' Ph.D.', 'Assistant Professor', 'weiyang@mail.med.upenn.edu']
-
+```
 
 
 Place your code in this file: [advanced_python_dict.py](python/advanced_python_dict.py)
