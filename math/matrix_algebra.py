@@ -1,3 +1,44 @@
 # Matrix Algebra
+import numpy as np
 
-PLACE YOUR CODE HERE
+A = np.matrix([[1,2,3],[2,7,4]])
+B = np.matrix([[1,-1],[0,1]])
+C = np.matrix([[5,-1],[9,1],[6,0]])
+D = np.matrix([[3,-2,-1],[1,2,3]])
+
+u = np.array([6,2,-3,5])
+v = np.array([3,5,-1,4])
+w = np.array("1;8;0;5")
+
+#Dimensions
+
+print A.shape
+print B.shape
+print C.shape
+print D.shape
+print u.shape
+print w.shape
+
+#Vector Operations
+
+print u+v
+print u-v
+print 6*u
+print u.dot(v)
+print np.linalg.norm(u)
+
+#Matrix Operations
+
+#A + C gives you an error 
+print A - C.T
+print C.T + 3*D
+print B*A
+# B.dot(A.T) gives you an error
+
+#Optional part
+# B*C gives us an error
+print C*B
+print B*B*B*B
+print A*A.T
+print D.T*D
+
