@@ -1,5 +1,5 @@
 [Think Stats Chapter 2 Exercise 4](http://greenteapress.com/thinkstats2/html/thinkstats2003.html#toc24) (Cohen's d)
-
+```
 import nsfg
 import thinkstats2
 import math
@@ -21,5 +21,5 @@ def CohenEffectSize(group1, group2):
   
 CohenEffectSize(firsts.totalwgt_lb, others.totalwgt_lb)   #we would get -.08967
 CohenEffectSize(firsts.prglngth,others.prglngth) #we would get .02887
-
+```
 
