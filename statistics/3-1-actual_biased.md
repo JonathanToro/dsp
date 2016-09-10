@@ -25,3 +25,5 @@ thinkplot.Pmfs([pmf,biased])
 thinkplot.Show()
 ```
 
+![alt text](https://github.com/JonathanToro/dsp/blob/master/figure_1-1.png)
+
