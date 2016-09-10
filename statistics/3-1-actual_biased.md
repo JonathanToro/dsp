@@ -27,3 +27,9 @@ thinkplot.Show()
 
 ![alt text](https://github.com/JonathanToro/dsp/blob/master/figure_1-1.png)
 
+```
+pmf.Mean() #We get 1.0242
+biased.Mean() #We get 2.4036
+```
+
+
