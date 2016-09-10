@@ -9,7 +9,7 @@ import thinkplot
 thinkplot.Pmf(pmf, label = 'numkdhh')
 thinkplot.Show()
 ```
- dsp/figure_1.png 
+![alt text][dsp/figure_1.png]
 
 ```
 def BiasPmf(pmf,label = ''):
