@@ -13,3 +13,9 @@ thinkplot.Show()
 ```
 ![alt text](https://github.com/JonathanToro/dsp/blob/master/img/random_pmf.png)
 
+```
+cdf = thinkstats2.Cdf(sample)
+thinkplot.Show()
+```
+
+![alt text](https://github.com/JonathanToro/dsp/blob/master/img/random_cdf.png)
