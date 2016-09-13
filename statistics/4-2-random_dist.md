@@ -19,3 +19,5 @@ thinkplot.Show()
 ```
 
 ![alt text](https://github.com/JonathanToro/dsp/blob/master/img/random_cdf.png)
+
+>> The distribution is uniform because the cumulative distritbution function is linear
