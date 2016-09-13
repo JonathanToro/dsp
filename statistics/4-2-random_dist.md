@@ -11,5 +11,5 @@ pmf = thinkstats2.Pmf(sample)
 thinkplot.Pmf(pmf,linewidth = 0.1)
 thinkplot.Show()
 ```
-![alt text]( dsp/img/random_pmf.png )
+![alt text](https://github.com/JonathanToro/dsp/blob/master/img/random_pmf.png)
 
