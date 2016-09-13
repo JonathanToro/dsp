@@ -15,6 +15,7 @@ thinkplot.Show()
 
 ```
 cdf = thinkstats2.Cdf(sample)
+thinkplot.Cdf(cdf)
 thinkplot.Show()
 ```
 
