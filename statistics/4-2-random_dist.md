@@ -10,7 +10,6 @@ sample = np.random.random(1000)
 pmf = thinkstats2.Pmf(sample)
 thinkplot.Pmf(pmf,linewidth = 0.1)
 thinkplot.Show()
-
 ```
-
+![alt text]( dsp/img/random_pmf.png )
 
